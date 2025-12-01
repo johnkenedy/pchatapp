@@ -13,24 +13,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.johnkenedy.pchatapp.ui.theme.PChatAppTheme
 
-/**
-
- Hello everyone and welcome back, in this playlist Let's create a complete Chat app
- while I go through Jetpack Compose, MVI architecture, dependency Injection with Hilt,
- Firebase for authentication, dataStore, repository pattern, and much more.
-
- I`ll not just build and give you a superficial idea,
- we gonna take our time, explain everything, why we use and choose any component or take any decision.
- Let's get started so you can see whats the idea, and how it's gonna work.
-
- First Let`s create some packages here, one for navigation, which we will cover in the next video,
- and here in the UI lets create one called feature. Here in the ui package lets create a
- ChatApp.kt file.
-
-
-
- */
-
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
