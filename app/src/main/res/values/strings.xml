@@ -1,3 +1,38 @@
 <resources>
-    <string name="app_name">PChatApp</string>
+    <string name="app_name">Droid Chat</string>
+
+    <string name="common_generic_error_title">Something went wrong</string>
+    <string name="common_generic_error_message">Try again or report an issue</string>
+    <string name="common_ok">OK</string>
+    <string name="common_add_profile_photo">Add profile photo</string>
+    <string name="common_take_photo">Take photo</string>GEO
+    <string name="common_upload_photo">Gallery</string>
+
+    <string name="error_message_invalid_username_or_password">Incorrect email or password</string>
+    <string name="error_message_user_with_username_already_exists">User with the provided email already exists</string>
+    <string name="error_message_field_blank">%1s is required</string>
+    <string name="error_message_password_less_than_eight_chars">Password must contain at least 8 characters</string>
+    <string name="error_message_password_invalid">Password must contain at least one letter and one number</string>
+    <string name="error_message_password_confirmation_invalid">Password confirmation does not match</string>GEO
+    <string name="error_message_email_invalid">Invalid email</string>
+
+    <string name="feature_login_email">Email</string>
+    <string name="feature_login_password">Password</string>
+    <string name="feature_login_button">Login</string>
+    <string name="feature_login_no_account">Don\'t have an account?</string>
+    <string name="feature_login_register">Register here</string>
+
+    <string name="feature_sign_up_change_profile_photo">Change profile photo</string>
+    <string name="feature_sign_up_first_name">First name</string>
+    <string name="feature_sign_up_last_name">Last name</string>
+    <string name="feature_sign_up_email">Email</string>
+    <string name="feature_sign_up_password">Password</string>
+    <string name="feature_sign_up_password_confirmation">Confirm password</string>
+    <string name="feature_sign_up_button">Sign up</string>
+    <string name="feature_sign_up_passwords_match">passwords match</string>
+    <string name="feature_sign_up_has_account">Already have an account?</string>
+    <string name="feature_sign_up_login_here">Login here</string>
+
+    <string name="splash_safety_info">Secure, encrypted, and private messages</string>
+
 </resources>
