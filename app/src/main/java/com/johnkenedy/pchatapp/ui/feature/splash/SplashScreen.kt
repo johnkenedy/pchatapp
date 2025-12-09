@@ -1,6 +1,7 @@
 package com.johnkenedy.pchatapp.ui.feature.splash
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -10,6 +11,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -21,20 +23,21 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.johnkenedy.pchatapp.R
+import com.johnkenedy.pchatapp.ui.theme.BackgroundGradient
 import com.johnkenedy.pchatapp.ui.theme.PChatAppTheme
 
-//The Route here will deal with the data, viewmodel, and will listen to the states.
 @Composable
 fun SplashRoute() {
-
+    SplashScreen()
 }
 
 @Composable
 fun SplashScreen() {
     Column(
         modifier = Modifier
-            .padding(16.dp)
-            .fillMaxSize(),
+            .fillMaxSize()
+            .background(brush = BackgroundGradient)
+            .padding(16.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -55,11 +58,11 @@ fun SplashScreen() {
 
             Spacer(modifier = Modifier.width(8.dp))
 
-
             Text(
                 text = stringResource(id = R.string.splash_safety_info),
                 color = Color.White,
-                textAlign = TextAlign.Center
+                textAlign = TextAlign.Center,
+                style = MaterialTheme.typography.bodyMedium
             )
         }
     }
